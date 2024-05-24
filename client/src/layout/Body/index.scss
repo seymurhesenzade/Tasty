@@ -1,0 +1,25 @@
+#bodyPage{
+    display: flex;
+    align-items: center;
+    .text{
+        margin-left: 50px;
+        h3{
+            color: gray;
+            font-size: 40px;
+            
+        }
+        p{margin-top: 50px;
+            color: rgb(173, 173, 173);
+            font-size: 20px;
+            width: 400;
+        }
+    }
+
+    .image{
+        img{
+        width: 550px;
+        height: 600px;
+
+        }
+    }
+}
