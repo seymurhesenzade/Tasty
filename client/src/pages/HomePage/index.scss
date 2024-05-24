@@ -1,0 +1,22 @@
+#blog {
+  background-color: rgb(230, 230, 230);
+  h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+.stars{
+  color: orange;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

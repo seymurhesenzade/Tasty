@@ -1,8 +1,13 @@
-import "../AddPage/index.scss"
-const AddPage = () => {
-  return (
-    <div>AddPage</div>
-  )
-}
+import "../AddPage/index.scss";
+import {Helmet} from "react-helmet";
 
-export default AddPage
+const AddPage = () => {
+  return <>
+         <Helmet>
+                <meta charSet="utf-8" />
+                <title>AddPage</title>
+            </Helmet>
+  </>;
+};
+
+export default AddPage;

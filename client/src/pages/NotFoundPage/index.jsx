@@ -1,7 +1,12 @@
 import "../NotFoundPage/index.scss"
+
+
 const index = () => {
   return (
-    <div>index</div>
+    <>
+      
+
+    </>
   )
 }
 
